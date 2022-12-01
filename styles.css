@@ -1,3 +1,13 @@
+:root{
+    --color-negro: #000;
+    --color-violeta-oscuro: #8A3EDF;
+    --color-violeta-claro:  #A280EC;
+    --color-coral: #F0536A;
+    --color-hueso: rgb(255, 255, 255);
+    --fuente-titulo: 'MuseoModerno', cursive;
+    --fuente-gral: 'Share Tech', sans-serif;
+}
+
 body{
-    background-color: blueviolet;
+    background-color: var(--color-negro);
 }
