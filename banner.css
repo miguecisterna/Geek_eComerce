@@ -1,0 +1,34 @@
+.banner{
+    margin: 3rem 0;
+
+}
+
+.banner .container{
+    background-color: var(--color-violeta-oscuro);
+    padding: 1rem 0;
+}
+
+.banner__subcontainer{
+    background: url("/img/banner-image.png");
+    background-size: 100% 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.banner__subcontainer h2, .banner__subcontainer p{
+    color: var(--color-hueso);
+    margin-left: 5rem;
+    font-family: var(--fuente-titulo);
+}
+
+.banner__subcontainer button{
+    margin: 0 0 5rem 5rem;
+    background-color: var(--color-violeta-claro);
+    color: var(--color-hueso);
+    padding: 0.5rem 1rem;
+    border: none;
+    font-family: var(--fuente-titulo);
+}
