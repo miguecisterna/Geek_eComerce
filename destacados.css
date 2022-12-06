@@ -34,6 +34,7 @@ hr {
     background-color: var(--color-violeta-claro);
     padding: 0.5rem;
     border-radius: 15px;
+    text-align: center;
 }
 
 .destacado__item img{
@@ -49,4 +50,11 @@ hr {
 .destacado__item p{
     color: var(--color-hueso);
     margin: 0.3rem 0;
+}
+
+.destacado__item a{
+    text-decoration: none;
+    background-color: var(--color-coral);
+    border-radius: 15px;
+    padding: 0.1rem 0.5rem;
 }
