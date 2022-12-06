@@ -15,27 +15,38 @@ hr {
 .destacado__titulo {
     color: var(--color-violeta-claro);
     font-family: var(--fuente-titulo);
-    margin: 0 0 0 1rem;
+    margin: 0 3rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .destacado__titulo h2{
     margin-top: 3rem;
 }
 
+.destacado__titulo a{
+    margin-top: 4rem;
+    text-decoration: none;
+}
+
 .destacado__item{
     margin: 0 1rem;
+    background-color: var(--color-violeta-claro);
+    padding: 0.5rem;
+    border-radius: 15px;
 }
 
 .destacado__item img{
     width: 20vh;
     height: 20vh;
+    border-radius: 15px;
 }
-
 .destacado__item h2{
-    color: var(--color-violeta-claro);
+    color: var(--color-violeta-oscuro);
     font-size: 1rem;
 }
 
 .destacado__item p{
     color: var(--color-hueso);
+    margin: 0.3rem 0;
 }
